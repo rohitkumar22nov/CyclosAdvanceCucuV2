@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="223.710134">
+    <testcase classname="This feature file is to validate the payment functionalities of Cyclos Website." name="Validate whether payment is being made to any existing user is successful." time="56.968357">
+        <system-out>
+            <![CDATA[Given Required website is launches also the business user is able to loggin with the authorized credentials.passed
+When Below are the payment details like payee and amount....................passed
+Then System is able to make the payments to desired user with specified amount.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="This feature file is to validate the payment functionalities of Cyclos Website." name="Validate whether payment is being made to existing user is successful through ScnOutline" time="38.846699">
+        <system-out>
+            <![CDATA[Given Website launched after that business user is able to loggin with the authorized credentials.passed
+When Data details are User "Nicola  Tesla"  Amount "2" system is able to make the payment..passed
+Then System is able to make the required payment to the users...............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="This feature file is to validate the payment functionalities of Cyclos Website." name="Validate whether payment is being made to existing user is successful through ScnOutline 2" time="41.469467">
+        <system-out>
+            <![CDATA[Given Website launched after that business user is able to loggin with the authorized credentials.passed
+When Data details are User "Hotel  Oasis"  Amount "2" system is able to make the payment..passed
+Then System is able to make the required payment to the users...............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="This feature file is to validate the payment functionalities of Cyclos Website." name="Validate whether payment is being made to existing user is successful through ScnOutline 3" time="36.869341">
+        <system-out>
+            <![CDATA[Given Website launched after that business user is able to loggin with the authorized credentials.passed
+When Data details are User "Henry  George"  Amount "2" system is able to make the payment..passed
+Then System is able to make the required payment to the users...............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="This feature file is to validate the payment functionalities of Cyclos Website." name="Validate whether payment is being made to existing user is successful by fetching data from external csv file" time="49.55627">
+        <system-out>
+            <![CDATA[Given Launching the Cyclos website after that using the account id with passowrd to gain access to proceed further.passed
+When Data is being fetched from "./TestData/CyclosNew.csv"..................passed
+Then Payment is being made by the system....................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
